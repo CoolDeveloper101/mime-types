@@ -7,6 +7,9 @@ A media type (also known as a Multipurpose Internet Mail Extensions or MIME type
 Basically, a mime type is used by the browser to determine how to display a particular web page.
 The [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) entity header is used to specify the mime type.
 
+Mime types are especially useful when you are creating a file server and don't know which value to send in the Content-Type header.
+This module provides an easy to use function for common extensions.
+
 ## Usage
 
 This module provides a [record](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkt) of common mime types.
